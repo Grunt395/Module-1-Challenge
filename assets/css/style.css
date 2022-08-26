@@ -1,13 +1,16 @@
+/* Global class to configure everything */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Changes the background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* Class that configures the header at the top of the display */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Class that configures h1 header fonts */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Class that configures h1 header fonts for the website's logo */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Class that configures div tags in the header */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* Class that configures ul tags in the header */
 .header div ul {
     list-style-type: none;
 }
 
+/* Class that configures li tags in the header */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Class that configures hyperlink tags */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Class that configures paragraph tags */
 p {
     font-size: 16px;
 }
 
+/* Class that displays the main banner image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* Class that causes images to float left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Class that causes images to float right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Class that sets the margins for on-screen display */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Class that lists the benefits and configures font in the benefits section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,22 +101,26 @@ p {
     background-color: #2589bd;
 }
 
+/* Class to configure font in the benefits section */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Class to configure font for h3 headers in the benefits section */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Class to configure images in the benefits section */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Class to configure font for listed services */
 .services {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,15 +130,18 @@ p {
     color: #ffffff;
 }
 
+/* Class to configure images for listed services */
 .services img {
     max-height: 200px;
 }
 
+/* Class to configure h2 headrs in services section */
 .services h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Class to configure footer font */
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +149,7 @@ p {
     text-align: center;
 }
 
+/* Class to configure footer font for h2 headers */
 .footer h2 {
     font-size: 20px;
 }
